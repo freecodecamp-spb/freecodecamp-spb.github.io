@@ -1,0 +1,7 @@
+pre span.value {
+	color: green
+}
+
+pre span.field {
+	color: orange
+}
