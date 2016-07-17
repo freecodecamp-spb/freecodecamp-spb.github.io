@@ -1,0 +1,12 @@
+@import "http://webfonts.ru/import/anfisa.css";
+
+body{
+	font-family: 'Anfisa Grotesk';
+	font-size: 22px;
+}
+
+.personal img{
+	float: left;
+	width: 150px;
+	height: 190px;
+}
