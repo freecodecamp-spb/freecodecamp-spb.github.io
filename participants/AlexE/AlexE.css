@@ -1,0 +1,55 @@
+*{
+    font-family:Arial;
+}
+html,body{
+    padding:0;
+    margin:0;
+}
+body {
+    background: -moz-linear-gradient(top, #106B75 0, #E8C31C 100%) no-repeat, #E8C31C ;
+    
+}
+div{
+    border-radius:10px;
+}
+/**/
+
+.container{
+    background:rbga(0,0,0,0.1);
+    max-width:600px;
+    margin: 100px auto;
+    min-height:60%;
+    position:relative;
+    text-align:center;
+}
+.tile{
+    max-width:250px;
+    max-height:250px;
+    display: inline-block;
+    background: rgba(255,255,255,.4);
+}
+.picture{
+    padding:20px;
+    font-size:30px;
+}
+.greeting{
+    padding:10px;
+    font-size:40px;
+    color:white;
+}
+
+.info{
+    width:300px;
+   
+    margin:20px auto;
+    background: rgba(255,255,255,.4);
+    padding:10px;
+    font-size:20px;
+    color:white;
+}
+.p{
+   background: rgba(255,255,255,.3); 
+   margin:10px 0;
+   color:black;
+   font-size:18px;
+}
