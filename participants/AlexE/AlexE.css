@@ -12,6 +12,15 @@ body {
 div{
     border-radius:10px;
 }
+a{
+    text-decoration: none;
+    color:black;
+}
+button{
+   background: rgba(255,255,255,.4);
+   border-radius: 10px;
+   font-size:10px;
+}
 /**/
 
 .container{
@@ -31,6 +40,7 @@ div{
 .picture{
     padding:20px;
     font-size:30px;
+    background: rgba(250,250,0,.4);
 }
 .greeting{
     padding:10px;
@@ -52,4 +62,23 @@ div{
    margin:10px 0;
    color:black;
    font-size:18px;
+}
+
+/*Face change*/
+#dface{
+    display: inline-block;
+}
+
+#lface{
+    display: none;
+}
+
+.picture:hover #lface{
+    display: inline-block;
+}
+.picture:hover #dface{
+    display: none;
+}
+.picture:hover{
+    cursor:pointer;
 }
