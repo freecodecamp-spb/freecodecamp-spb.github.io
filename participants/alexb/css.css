@@ -1,0 +1,79 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    background-color: #FAEBD7;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@-webkit-keyframes animated {
+    0% {
+        transform: rotateZ(20deg);
+    }
+    100% {
+        transform: rotateZ(-20deg)
+    }
+}
+
+@-moz-keyframes animated {
+    0% {
+        transform: rotateZ(20deg);
+    }
+    100% {
+        transform: rotateZ(-20deg);
+    }
+}
+
+@-o-keyframes animated {
+    0% {
+        transform: rotateZ(20deg);
+    }
+    100% {
+        transform: rotateZ(-20deg);
+    }
+}
+
+@keyframes animated {
+    0% {
+        transform: rotateZ(20deg);
+    }
+    100% {
+        transform: rotateZ(-20deg);
+    }
+}
+
+.iam {
+    font-size: 7.7em;
+    line-height: 1em;
+}
+
+.name {
+    font-size: 3em;
+    line-height: .9em;
+}
+
+.playing {
+    font-size: 1.6em;
+}
+
+#span {
+    font-size: 2em;
+    color: #B2BEB5;
+}
+
+.wrap {
+    text-align: center;
+    border: 1px solid black;
+    padding: 1.2em;
+    animation: animated 12s infinite alternate;
+    -webkit-animation: animated 12s infinite alternate;
+    -moz-animation: animated 12s infinite alternate;
+    -o-animation: animated 12s infinite alternate;
+}
