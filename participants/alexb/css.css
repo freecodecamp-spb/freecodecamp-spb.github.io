@@ -70,10 +70,10 @@ body {
 
 .wrap {
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #ddd;
     padding: 1.2em;
-    animation: animated 12s infinite alternate;
-    -webkit-animation: animated 12s infinite alternate;
-    -moz-animation: animated 12s infinite alternate;
-    -o-animation: animated 12s infinite alternate;
+    animation: animated 18s infinite alternate;
+    -webkit-animation: animated 18s infinite alternate;
+    -moz-animation: animated 18s infinite alternate;
+    -o-animation: animated 18s infinite alternate;
 }
