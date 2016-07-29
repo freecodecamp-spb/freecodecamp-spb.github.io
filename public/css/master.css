@@ -1,31 +1,40 @@
-html, body {
+html,
+body {
     height: 100%;
 }
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cuprum', sans-serif;
 }
+
 h1 {
     text-align: center;
     font-size: 4rem;
     padding: 2rem;
     padding-bottom: 1rem;
     display: inline-block;
-    text-shadow: rgb(46, 46, 46) 0px 4px 2px;
-    background-color: rgba(0, 0, 0, .80);
 }
+
 h2 {
     text-align: right;
     padding: 0 2rem 1rem 0;
-    background-color: rgba(0, 0, 0, .80);
     display: block;
     font-size: 1.2rem;
 }
+
 li {
-	font-size: 1em;
+    font-size: 1.1em;
+    line-height: 1.5em;
 }
+
+li:last-child {
+    line-height: 3em;
+}
+
 .header {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
+
 .flex-wrapper {
     height: 100%;
     display: flex;
@@ -34,6 +43,7 @@ li {
     align-content: center;
     flex-direction: column;
 }
+
 .wip {
     display: block;
     margin: 0 auto;
