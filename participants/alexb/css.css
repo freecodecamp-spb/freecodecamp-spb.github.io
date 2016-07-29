@@ -15,37 +15,37 @@ body {
 
 @-webkit-keyframes animated {
     0% {
-        transform: rotateZ(20deg);
+        transform: rotateZ(10deg);
     }
     100% {
-        transform: rotateZ(-20deg)
+        transform: rotateZ(-10deg)
     }
 }
 
 @-moz-keyframes animated {
     0% {
-        transform: rotateZ(20deg);
+        transform: rotateZ(10deg);
     }
     100% {
-        transform: rotateZ(-20deg);
+        transform: rotateZ(-10deg);
     }
 }
 
 @-o-keyframes animated {
     0% {
-        transform: rotateZ(20deg);
+        transform: rotateZ(10deg);
     }
     100% {
-        transform: rotateZ(-20deg);
+        transform: rotateZ(-10deg);
     }
 }
 
 @keyframes animated {
     0% {
-        transform: rotateZ(20deg);
+        transform: rotateZ(10deg);
     }
     100% {
-        transform: rotateZ(-20deg);
+        transform: rotateZ(-10deg);
     }
 }
 
@@ -76,4 +76,16 @@ body {
     -webkit-animation: animated 18s infinite alternate;
     -moz-animation: animated 18s infinite alternate;
     -o-animation: animated 18s infinite alternate;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    cursor: none;
+}
+
+.wrap:hover {
+    background-color: #333;
+    color: #ddd;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
 }
