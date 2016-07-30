@@ -1,0 +1,85 @@
+*{
+    font-family:Arial;
+}
+html,body{
+    padding:0;
+    margin:0;
+}
+body {
+    background: -moz-linear-gradient(top, #106B75 0, #E8C31C 100%) no-repeat, #E8C31C ;
+    background: -webkit-linear-gradient(top, #106B75 0, #E8C31C 100%) no-repeat, #E8C31C ;
+    background: linear-gradient(top, #106B75 0, #E8C31C 100%) no-repeat, #E8C31C ;
+}
+div{
+    border-radius:10px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+button{
+   background: rgba(255,255,255,.4);
+   border-radius: 10px;
+   font-size:10px;
+}
+/**/
+
+.container{
+    background:rbga(0,0,0,0.1);
+    max-width:600px;
+    margin: 100px auto;
+    min-height:60%;
+    position:relative;
+    text-align:center;
+}
+.tile{
+    max-width:250px;
+    max-height:250px;
+    display: inline-block;
+    background: rgba(255,255,255,.4);
+}
+.picture{
+    padding:20px;
+    font-size:30px;
+    background: rgba(250,250,0,.4);
+}
+.greeting{
+    padding:10px;
+    font-size:35px;
+    color:white;
+}
+
+.info{
+    width:300px;
+   
+    margin:20px auto;
+    background: rgba(255,255,255,.4);
+    padding:10px;
+    font-size:20px;
+    color:white;
+}
+.p{
+   background: rgba(255,255,255,.3); 
+   margin:10px 0;
+   color:black;
+   font-size:18px;
+}
+
+/*Face change*/
+#dface{
+    display: inline-block;
+}
+
+#lface{
+    display: none;
+}
+
+.picture:hover #lface{
+    display: inline-block;
+}
+.picture:hover #dface{
+    display: none;
+}
+.picture:hover{
+    cursor:pointer;
+}
