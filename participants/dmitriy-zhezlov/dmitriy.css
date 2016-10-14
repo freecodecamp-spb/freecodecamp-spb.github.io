@@ -1,0 +1,26 @@
+.page-header {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.about-me {
+	font-family: Georgia, sans-serif;
+	text-align: center;
+}
+
+.about-me__name {
+	font-style: italic;
+}
+
+.contacts {
+	margin: 10px auto;
+	text-decoration: none;
+	min-height: 20px;
+	width: 280px;
+	border: 2px solid #000000;
+	border-radius: 50px;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}
