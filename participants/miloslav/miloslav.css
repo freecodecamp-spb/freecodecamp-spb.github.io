@@ -1,0 +1,29 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	height: 100%;
+}
+
+.main-header {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main-header__slogan {
+	font-family: "Tahoma", sans-serif;
+	line-height: 2;
+	font-weight: 400;
+	font-size: 30px;
+	font-style: normal;
+	text-align: center;
+}
