@@ -7,7 +7,7 @@ body {
 	height: 100%;
 }
 
-.main-header {
+main {
 	position: absolute;
 	bottom: 0;
 	top: 0;
@@ -19,7 +19,7 @@ body {
 	justify-content: center;
 }
 
-.main-header__slogan {
+p {
 	font-family: "Tahoma", sans-serif;
 	line-height: 2;
 	font-weight: 400;
