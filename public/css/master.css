@@ -71,6 +71,11 @@ a {
   margin-left: 20px;
 }*/
 
-.contacts {
-  width: 20%;
+.footer {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.contacts li {
+  display: inline-block;
 }
