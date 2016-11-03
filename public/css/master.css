@@ -9,19 +9,15 @@ body {
 }
 
 h1 {
-  text-align: center;
-  font-size: 5em;
-  padding: 1em;
-  padding-bottom: 1rem;
+  font-size: 3em;
+  padding: 20px;
   display: inline-block;
   color: #126180;
 }
 
 h2 {
-  text-align: right;
-  padding: 0 2em 1em 0;
   display: block;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 h3 {
@@ -47,28 +43,33 @@ a {
 }
 
 .wrapper {
-  min-height: 100%;
-  width: 80%;
+  height: 100%;
+  width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
 
 
 .header {
-  margin: 0 auto 3em;
-  width: 60%;
+  margin: 0 auto 60px;
+  width: 100%;
 }
 
 .content {
   display: flex;
+  flex-flow: row wrap;
 }
 
 .content__item {
-  margin-right: 10%;
+  flex: 1 1 auto;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 60px;
 }
 
-.content__item:last-child {
-  margin-right: 0;
-}
+/*.content__item + .content__item {
+  margin-left: 20px;
+}*/
 
 .contacts {
   width: 20%;
