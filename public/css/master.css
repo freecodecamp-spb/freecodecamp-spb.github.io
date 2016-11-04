@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  background-color: #fffaf0;
+  background-color: #fff;
 }
 
 body {
@@ -11,18 +11,20 @@ body {
 h1 {
   font-size: 3em;
   padding: 20px;
-  display: inline-block;
-  color: #126180;
+  display: block;
 }
 
 h2 {
   display: block;
   font-size: 1.5em;
+  padding: 0 20px 20px;
+  color: #023A4F;
 }
 
 h3 {
   font-size: 1.3em;
   margin: 0 0 1em 0;
+  color: #023A4F;
 }
 
 li {
@@ -43,21 +45,30 @@ a {
 }
 
 .wrapper {
-  height: 100%;
-  width: 90%;
-  margin: 0 auto;
+  min-height: 100%;
+  width: 100%;
+  margin: 0 auto -120px;
   text-align: center;
 }
 
+.wrapper:after {
+  content: "";
+  display: block;
+  height: 120px;
+}
 
 .header {
   margin: 0 auto 60px;
   width: 100%;
+  background-color: #4587A0;
+  color: #fff;
 }
 
 .content {
   display: flex;
   flex-flow: row wrap;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .content__item {
@@ -73,9 +84,31 @@ a {
 
 .footer {
   text-align: left;
-  padding-left: 15px;
+  height: 120px;
+  background-color: #4587A0;
+}
+
+.footer__content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contacts {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
 
 .contacts li {
   display: inline-block;
+  flex: 1 1 auto;
+}
+
+.contacts li a {
+  cursor: pointer;
 }
