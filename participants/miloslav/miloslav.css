@@ -19,7 +19,8 @@ main {
 	justify-content: center;
 }
 
-p {
+p, a {
+	margin-bottom: 5px;
 	font-family: "Tahoma", sans-serif;
 	line-height: 2;
 	font-weight: 400;
