@@ -1,30 +1,21 @@
-html {
-	min-height: 100%;
-	position: relative;
-}
-
-body {
+html,
+body,
+main {
 	height: 100%;
+	background:
+		linear-gradient(to top, rgba(0, 0, 0, .3), rgba(0, 0, 0, .6)),
+		url('back.gif') no-repeat center / 100%,
+		black;
 }
 
 main {
-	position: absolute;
-	bottom: 0;
-	top: 0;
-	left: 0;
-	right: 0;
-	
 	display: flex;
-	flex-direction: column;
+	align-items: center;
 	justify-content: center;
 }
 
-p, a {
-	margin-bottom: 5px;
-	font-family: "Tahoma", sans-serif;
-	line-height: 2;
-	font-weight: 400;
-	font-size: 30px;
-	font-style: normal;
-	text-align: center;
+a {
+	font-family: monospace;
+	color: white;
+	font-size: 32px;
 }
